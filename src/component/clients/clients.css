@@ -1,0 +1,63 @@
+*:focus {outline:none !important}
+#clients {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0 , 0 , 0.3);
+    background-color: #fff;
+}
+
+#clients th {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+}
+#clients td {
+    padding: 12px 15px;
+}  
+#clients th {
+    text-align: left;
+    background-color: #009879;
+    color: white;
+}
+#clients tr {
+    border-bottom: 1px solid #ddd;
+}
+#clients tr:nth-child(even) {
+    background-color: #ddd;
+
+}
+
+#clients tbody tr:last-child {
+    border-bottom: 2px solid #009879;
+}
+/* ClientsForm */
+.wrapped{
+    text-align: center;
+}
+form{
+    display: inline-block;
+    width: 500px;
+
+}
+input{
+    display: block;
+    width: 100%;
+    margin:10px 0;
+    padding:10px;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+input[type='text']{
+    box-shadow:0 0 4px rgba(0,0,0,0.3);
+
+}
+input[type='submit']{
+    background-color: #009879;
+    color: #f1f1f1;
+    font-size: 16px;
+    font-weight: bold;
+}
